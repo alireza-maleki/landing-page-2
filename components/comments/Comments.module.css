@@ -1,0 +1,14 @@
+.comments {
+  background-color: #fe8c00;
+}
+
+.line {
+  width: 100px;
+  height: 10px;
+  font-weight: bold;
+  background-color: #f83600;
+}
+
+.carusel-card {
+  background-color: rgba(255, 255, 255, 0.8);
+}/*# sourceMappingURL=Comments.module.css.map */

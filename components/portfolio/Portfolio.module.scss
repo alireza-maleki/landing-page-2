@@ -1,0 +1,43 @@
+@import "../../styles/variables";
+
+.actions button {
+    color: $primary;
+    border: 1px solid $primary;
+
+    &:hover,
+    &:active {
+        background-color: $primary;
+        color: #fff;
+        border: 1px solid $primary;
+    }
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+
+    .info {
+        background-color: rgba($primary, 0.75);
+        opacity: 0;
+        transition: all 1s;
+    }
+
+    img {
+        transition: all 1s;
+    }
+
+    &:hover {
+
+        img {
+            transform: scale(1.5);
+        }
+
+        .info {
+            opacity: 1;
+        }
+
+    }
+
+}

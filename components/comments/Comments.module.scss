@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.comments {
+    background-color: $primary;
+}
+
+.line {
+    width: 100px;
+    height: 10px;
+    font-weight: bold;
+    background-color: $secondary;
+}
+
+.carusel-card {
+    background-color: rgba($white, 0.8);
+}

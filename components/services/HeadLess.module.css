@@ -1,0 +1,17 @@
+.headless::before {
+  content: "";
+  width: 14rem;
+  height: 0.3em;
+  display: block;
+  margin: 0 auto;
+  background-color: #fe8c00;
+}
+
+.headless::after {
+  content: "";
+  width: 3rem;
+  height: 0.4rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #fe8c00;
+}/*# sourceMappingURL=HeadLess.module.css.map */

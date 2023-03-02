@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+.accordion-button {
+    background-color: #f1f1f1 !important;
+    color: #000 !important;
+}
+
+.accordion-button:focus {
+    color: $secondary;
+    background-color: $primary !important;
+    border: 2px solid $secondary !important; 
+    box-shadow: 0 0 0 #fff;
+}
+
+.accordion-button::after {
+    margin-right: auto;
+    margin-left: 0;
+    color: #000 !important;
+}

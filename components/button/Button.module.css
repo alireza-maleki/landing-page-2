@@ -1,0 +1,11 @@
+.btn {
+  background-color: #fff;
+  border: 0.1em solid rgba(255, 255, 255, 0.6);
+  border-radius: 50rem;
+  padding: 0.5rem 1.2rem;
+}
+.btn:hover {
+  background-color: #f83600;
+  border: 0.1em solid white;
+  color: #fff;
+}/*# sourceMappingURL=Button.module.css.map */

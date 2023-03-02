@@ -1,0 +1,17 @@
+.accordion-button {
+  background-color: #f1f1f1 !important;
+  color: #000 !important;
+}
+
+.accordion-button:focus {
+  color: #f83600;
+  background-color: #fe8c00 !important;
+  border: 2px solid #f83600 !important;
+  box-shadow: 0 0 0 #fff;
+}
+
+.accordion-button::after {
+  margin-right: auto;
+  margin-left: 0;
+  color: #000 !important;
+}/*# sourceMappingURL=Faq.module.css.map */

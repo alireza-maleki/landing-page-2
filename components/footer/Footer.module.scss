@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+
+.footer {
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+}
+
+.icon {
+    font-size: 34px;
+    color: $secondary;
+}
+
+.media {
+    background-color: #212121;
+}
+
+.links {
+    font-size: 30px;
+}
+
+.list hr {
+    width: 80px;
+    font-weight: bold;
+    height: 5px;
+    background-color: #aaa;
+}
+
+.container-info {
+    background-color: #212121;
+}
